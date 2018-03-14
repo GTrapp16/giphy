@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/style.css" type="text/css">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row margin">
+      <div class="col-md-6 offset-md-3">
+        <!-- button holder  -->
+        <div id="charcterButtons"></div>
+        <!--creates new buttons -->
+        <form id="character-form">
+          <label for="character-input">Add a character!</label>
+          <input type="text" id="character-input">
+          <button id="addCharacter" type="submit" class="btn btn-success">Add</button>
+        </form>
+        <!-- Gif holder -->
+        <p>Click each image!</p>
+      </div>
+    </div>
+  </div>
+  <div id="characters" class="card-columns"></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/app.js"></script>
+</body>
+
+</html>
