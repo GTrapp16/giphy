@@ -20,7 +20,8 @@ function displayCharacterInfo() {
                 characterImage.attr("src", results[i].images.fixed_height.url);
                 characterDiv.append(p);
                 characterDiv.append(characterImage);
-                $("giphy-view").prepend(characterDiv);
+                console.log(characterDiv);
+                $("#giphy-view").prepend(characterDiv);
             }
         });
 }
